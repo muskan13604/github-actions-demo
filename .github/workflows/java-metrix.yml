@@ -28,5 +28,5 @@ jobs:
       - name: Verify Java Version
         run: java -version
 
-      - name: Run Mvn Tests
+      - name: Run Maven Tests
         run: mvn test
